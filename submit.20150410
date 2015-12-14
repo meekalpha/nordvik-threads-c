@@ -1,0 +1,42 @@
+Assignment Submission
+       Unit: comp309
+ Assignment: a2
+       User: awilli64
+     Who is:
+       Date: Fri Apr 10 06:40:32 AEST 2015
+----------------------------------------------------------------
+Files submitted:
+-rw------- 1 awilli64 awilli64  185 Apr  3 12:58 makefile
+-rw------- 1 awilli64 awilli64 7.7K Apr 10 06:39 nordvik.c
+-rw------- 1 awilli64 awilli64 1.3K Apr  3 09:31 sem_ops.h
+----------------------------------------------------------------
+Script of session:
+Script started on Fri 10 Apr 2015 06:39:44 AEST
+]0;awilli64@turing:~/comp309/ass2[awilli64@turing ass2]$ make
+gcc -Wall -pedantic -pthread nordvik.c -o nordvik
+]0;awilli64@turing:~/comp309/ass2[awilli64@turing ass2]$ ./nordvik 
+Truck [35m1[0m going east [35mon[0m the bridge
+Truck [35m1[0m going east [35moff[0m the bridge
+Car [35m0[0m going west [35mon[0m the bridge
+Car [35m2[0m going west [35mon[0m the bridge
+Car [35m1[0m going west [35mon[0m the bridge
+Car [35m0[0m going west [35moff[0m the bridge
+Car [35m2[0m going west [35moff[0m the bridge
+Car [35m1[0m going west [35moff[0m the bridge
+Car [35m2[0m going east [35mon[0m the bridge
+Car [35m1[0m going east [35mon[0m the bridge
+Car [35m0[0m going east [35mon[0m the bridge
+Car [35m2[0m going east [35moff[0m the bridge
+Car [35m1[0m going east [35moff[0m the bridge
+Car [35m0[0m going east [35moff[0m the bridge
+Truck [35m1[0m going west [35mon[0m the bridge
+Truck [35m1[0m going west [35moff[0m the bridge
+Truck [35m0[0m going west [35mon[0m the bridge
+Truck [35m0[0m going west [35moff[0m the bridge
+Truck [35m0[0m going east [35mon[0m the bridge
+Truck [35m0[0m going east [35moff[0m the bridge
+]0;awilli64@turing:~/comp309/ass2[awilli64@turing ass2]$ exit
+exit
+
+Script done on Fri 10 Apr 2015 06:40:18 AEST
+1746
